@@ -1,0 +1,41 @@
+{
+    "name": "razonyang/yii2-flysystem-aliyun-oss",
+    "description": "Aliyun OSS Adapter for Yii2 Flysystem",
+    "type": "yii2-extension",
+    "keywords": ["yii2", "aliyun", "oss", "flysystem"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Razon Yang",
+            "email": "razonyang@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^7.1",
+        "aliyuncs/aliyun-oss-flysystem": "^1.0",
+        "creocoder/yii2-flysystem": "~0.9"
+    },
+    "require-dev": {
+        "codeception/codeception": "^3.0",
+        "codeception/verify": "^1.1",
+        "phpunit/phpunit": "^7"
+    },
+    "autoload": {
+        "psr-4": {
+            "RazonYang\\Yii2\\Flysystem\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "RazonYang\\Yii2\\Flysystem\\Tests\\": "tests/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
+}
